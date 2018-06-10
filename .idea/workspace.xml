@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9023586f-555a-4b1e-b810-3bf6fbee902e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/64x64-flag-brazil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/64x64-flag-icon-usa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/flag-icon-brazil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/nav-bar-include.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nav-bar-include.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/title-section-include.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/title-section-include.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,9 +23,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-bar-include.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav-bar-include.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/nav-bar-include.php">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="general.js" pinned="false" current-in-tab="false">
@@ -84,6 +90,7 @@
         <option value="$PROJECT_DIR$/includes/title-section-include.php" />
         <option value="$PROJECT_DIR$/css/general.css" />
         <option value="$PROJECT_DIR$/includes/nav-bar-include.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -188,7 +195,7 @@
       <updated>1528475620921</updated>
       <workItem from="1528475622178" duration="3694000" />
       <workItem from="1528569639929" duration="4148000" />
-      <workItem from="1528593266036" duration="12111000" />
+      <workItem from="1528593266036" duration="13546000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1528604575433</created>
@@ -201,7 +208,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19953000" />
+    <option name="totallyTimeSpent" value="21388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -311,6 +318,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/nav-bar-include.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
