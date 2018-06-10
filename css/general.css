@@ -85,3 +85,37 @@
 .title-section .title-container h1 {
     text-align: center;
 }
+
+/*FOOTER*/
+.footer-cotainer {
+
+}
+
+.footer-container .footer-menu-list {
+    display: block;
+    padding: 0 50px 0 0;
+    float: right;
+}
+
+.footer-container .footer-menu-list .footer-menu-list-item {
+    list-style: none;
+}
+
+.footer-container .footer-menu-list .footer-menu-list-item a {
+    color: #999999;
+    font-size: 16px;
+}
+
+.footer-container .footer-menu-list .footer-menu-list-item a:hover {
+    text-decoration: none;
+}
+
+.footer-container .footer-address-list {
+    display: block;
+}
+
+.footer-container .footer-address-list .footer-address-list-item {
+    list-style: none;
+    color: #999999;
+}
+

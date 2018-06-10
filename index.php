@@ -15,5 +15,7 @@
 
 <?php include("includes/title-section-include.php"); ?>
 
+<?php include("includes/footer-include.php"); ?>
+
 </body>
 </html>
