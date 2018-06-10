@@ -10,8 +10,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="nav-bar-lang-list">
-                            <li class="nav-bar-lang-list-item"><a href="#"><img src="./img/32x32-flag-brazil.png" alt="Brazilian Portuguese"></a></li>
-                            <li class="nav-bar-lang-list-item"><a href="#"><img src="./img/32x32-flag-icon-usa.png" alt="American English"></a></li>
+                            <li class="nav-bar-lang-list-item"><a href="#"><img src="./img/32x32-flag-brazil.png"
+                                                                                alt="Brazilian Portuguese"></a></li>
+                            <li class="nav-bar-lang-list-item"><a href="#"><img src="./img/32x32-flag-icon-usa.png"
+                                                                                alt="American English"></a></li>
                         </ul>
                     </div>
                 </div>

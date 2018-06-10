@@ -9,6 +9,7 @@
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 5px #888888;
+    z-index: 9999;
 }
 
 .nav-bar-container a {
@@ -16,7 +17,6 @@
 }
 
 /*NAV-BAR-LOGO*/
-
 .nav-bar-container .nav-bar-logo {
     margin: 10px 0 0 0;
 
@@ -24,7 +24,7 @@
 
 .nav-bar-container .nav-bar-logo a {
     color: #999999;
-    text-shadow: -1px 1px 2px #000000;
+    text-shadow: 1px 1px 2px #000000;
     font-size: 40px;
     text-align: center;
     display: block;
@@ -70,5 +70,18 @@
 
 .nav-bar-container .nav-bar-menu-list .nav-bar-menu-list-item a:hover {
     text-decoration: none;
-    text-shadow: -1px 1px 2px #000000;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.title-section {
+    height: 1500px;
+    background-color: blanchedalmond;
+}
+
+.title-section .title-container {
+    padding-top: 83px;
+}
+
+.title-section .title-container h1 {
+    text-align: center;
 }
