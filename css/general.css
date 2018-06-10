@@ -114,8 +114,9 @@
     display: block;
 }
 
-.footer-container .footer-address-list .footer-address-list-item {
+.footer-container .footer-address-list p {
     list-style: none;
     color: #999999;
+    margin-bottom: 0!important;
 }
 

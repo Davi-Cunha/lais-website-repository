@@ -11,13 +11,15 @@
                 </ul>
             </div>
             <div class="col-md-4">
-                <ul class="footer-address-list">
-                    <li class="footer-address-list-item">Rua Patagônia</li>
-                    <li class="footer-address-list-item">Rua Patagônia</li>
-                    <li class="footer-address-list-item">Rua Patagônia</li>
-                    <li class="footer-address-list-item">Rua Patagônia</li>
-                    <li class="footer-address-list-item">Rua Patagônia</li>
-                </ul>
+                <div class="footer-address-list">
+                    <strong>Head Office:</strong>
+                    <p>Minas Gerais</p>
+                    <p>Belo Horizonte</p>
+                    <p>Sion</p>
+                    <p>Rua Patagônia, nº 983</p>
+                    <p>Brazil</p>
+                    <p>Phone: +55 (31) 9 9937 9709</p>
+                </div>
             </div>
             <div class="col-md-4">
                 <div id="map"></div>
