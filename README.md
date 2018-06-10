@@ -1,5 +1,5 @@
 # Laís Engineering Website
-This website is under development. There is no estimated deadline for project.
+This website is under development. There is no estimated deadline for this project.
 
 #### Goals to achieve during this development: 
    + Create a fully working **NAVIGATION BAR** on the top of every page.
