@@ -12,8 +12,8 @@
     z-index: 9999;
 }
 
-.nav-bar-container a {
-    font-family: "Lato";
+a, h1, h2, h3, h4, h5, h6, p, span {
+    font-family: "Lato", sans-serif;
 }
 
 /*NAV-BAR-LOGO*/
@@ -38,8 +38,8 @@
 /*NAV-BAR-LANGUAGE-LIST*/
 .nav-bar-container .nav-bar-lang-list {
     display: block;
-    float: right!important;
-    margin-bottom: 0!important;
+    float: right !important;
+    margin-bottom: 0 !important;
 }
 
 .nav-bar-container .nav-bar-lang-list .nav-bar-lang-list-item {
@@ -52,7 +52,7 @@
 .nav-bar-container .nav-bar-menu-list {
     display: block;
     float: right;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .nav-bar-container .nav-bar-menu-list .nav-bar-menu-list-item {
@@ -70,7 +70,6 @@
 
 .nav-bar-container .nav-bar-menu-list .nav-bar-menu-list-item a:hover {
     text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
 }
 
 .title-section {
@@ -87,8 +86,8 @@
 }
 
 /*FOOTER*/
-.footer-cotainer {
-
+.footer-container {
+    padding: 20px 0 0 0;
 }
 
 .footer-container .footer-menu-list {
@@ -117,6 +116,33 @@
 .footer-container .footer-address-list p {
     list-style: none;
     color: #999999;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
+.footer-container .designed-by p {
+    text-align: center;
+    color: #888888;
+}
+
+.footer-container .designed-by p {
+    text-align: center;
+    color: #888888;
+}
+
+.footer-container .designed-by p a {
+    color: #000000;
+    transition: all .4s;
+}
+
+.footer-container .designed-by p a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+.footer-container #map {
+    height: 200px;
+    width: 350px;
+    border: 1px solid #999999;
+    box-shadow: 0 2px 5px #888888;
+
+}
