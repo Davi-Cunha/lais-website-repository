@@ -8,5 +8,5 @@ This website is under development. There is no estimated deadline for this proje
    + Create a **FOOTER SECTION** on the bottom of every page.
         + Navigation menu
         + Address information
-        + Google Maps integration++-
+        + Google Maps integration
    + Create standalone pages for which section.
