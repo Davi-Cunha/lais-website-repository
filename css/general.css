@@ -5,10 +5,10 @@
 
 /*NAV-BAR-CONTAINER*/
 .nav-bar-container {
-    background-color: #ffffff;
+    background-color: #314455;
     position: fixed;
     width: 100%;
-    box-shadow: 0 2px 5px #888888;
+    /*box-shadow: 0 2px 5px #888888;*/
     z-index: 9999;
 }
 
@@ -23,7 +23,7 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .nav-bar-container .nav-bar-logo a {
-    color: #999999;
+    color: #ffffff;
     text-shadow: 1px 1px 2px #000000;
     font-size: 40px;
     text-align: center;
@@ -64,7 +64,7 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 .nav-bar-container .nav-bar-menu-list .nav-bar-menu-list-item a {
     font-size: 20px;
     font-weight: bolder;
-    color: #999999;
+    color: #ffffff;
     transition: all .2s;
 }
 
@@ -72,20 +72,62 @@ a, h1, h2, h3, h4, h5, h6, p, span {
     text-decoration: none;
 }
 
+/*TITLE SECTION*/
 .title-section {
     height: 1500px;
-    background-color: blanchedalmond;
-}
-
-.title-section .title-container {
+    background-color: #c96567;
     padding-top: 83px;
 }
 
-.title-section .title-container h1 {
+.title-section .title-menu {
+
+}
+
+.title-section .title-menu .title-menu-list {
+
+}
+
+.title-section .title-menu .title-menu-list .title-menu-list-item {
+    list-style: none;
     text-align: center;
 }
 
-/*FOOTER*/
+.title-section .title-menu .title-menu-list #home,
+.title-section .title-menu .title-menu-list #about,
+.title-section .title-menu .title-menu-list #projects,
+.title-section .title-menu .title-menu-list #career,
+.title-section .title-menu .title-menu-list #contact {
+    padding: 20px 5px 20px 5px;
+}
+
+.title-section .title-menu .title-menu-list #home {
+    background-color: #263441;
+}
+
+.title-section .title-menu .title-menu-list #about {
+    background-color: #314455;
+}
+
+.title-section .title-menu .title-menu-list #projects {
+    background-color: #000000;
+}
+
+.title-section .title-menu .title-menu-list #career {
+    background-color: #263441;
+}
+
+.title-section .title-menu .title-menu-list #contact {
+    background-color: #314455;
+}
+
+.title-section .title-menu .title-menu-list .title-menu-list-item a {
+    color: #ffffff;
+    font-size: 21px;
+
+}
+
+
+    /*FOOTER*/
 .footer-container {
     padding: 20px 0 0 0;
 }
