@@ -2,17 +2,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
+                <header class="footer-navigation-header">
+                    <strong>Navigate</strong>
+                </header>
                 <ul class="footer-menu-list">
-                    <li class="footer-menu-list-item"><a href="#">Home</a></li>
-                    <li class="footer-menu-list-item"><a href="#">About</a></li>
-                    <li class="footer-menu-list-item"><a href="#">Projects</a></li>
-                    <li class="footer-menu-list-item"><a href="#">Career</a></li>
-                    <li class="footer-menu-list-item"><a href="#">Contact</a></li>
+                    <li class="footer-menu-list-item"><a href="#">Home <span>></span></a></li>
+                    <li class="footer-menu-list-item"><a href="#">About <span>></span></a></li>
+                    <li class="footer-menu-list-item"><a href="#">Projects <span>></span></a></li>
+                    <li class="footer-menu-list-item"><a href="#">Career <span>></span></a></li>
+                    <li class="footer-menu-list-item"><a href="#">Contact <span>></span></a></li>
                 </ul>
             </div>
             <div class="col-md-4">
                 <div class="footer-address-list">
-                    <strong>Head Office</strong>
+                    <strong>Where to find me</strong>
                     <p>Minas Gerais</p>
                     <p>Belo Horizonte</p>
                     <p>Sion</p>
@@ -57,6 +60,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="designed-by">
+                    <p>&copydavicunhasilva 2018.</p>
                     <p>Designed by <a href="http://davicunhasilva.me/" target="_blank">davicunhasilva</a></p>
                 </div>
             </div>

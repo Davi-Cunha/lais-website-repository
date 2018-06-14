@@ -9,12 +9,10 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-md-12">
-                        <ul class="nav-bar-lang-list">
-                            <li class="nav-bar-lang-list-item"><a href="#"><img src="./img/32x32-flag-brazil.png"
-                                                                                alt="Brazilian Portuguese"></a></li>
-                            <li class="nav-bar-lang-list-item"><a href="#"><img src="./img/32x32-flag-icon-usa.png"
-                                                                                alt="American English"></a></li>
-                        </ul>
+                        <div class="nav-bar-lang">
+                            <a href="#">EN</a>
+                            <a href="#">PT</a>
+                        </div>
                     </div>
                 </div>
                 <div class="row">

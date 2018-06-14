@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: hemi head;
+    src: url("/fonts/hemi-head.ttf");
+}
+
 /*NAV-BAR-CONTAINER*/
 .nav-bar-container {
     background-color: #314455;
@@ -12,7 +17,7 @@
     z-index: 9999;
 }
 
-a, h1, h2, h3, h4, h5, h6, p, span {
+a, h1, h2, h3, h4, h5, h6, p, span, strong {
     font-family: "Lato", sans-serif;
 }
 
@@ -36,16 +41,24 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 }
 
 /*NAV-BAR-LANGUAGE-LIST*/
-.nav-bar-container .nav-bar-lang-list {
+.nav-bar-container .nav-bar-lang {
     display: block;
     float: right !important;
     margin-bottom: 0 !important;
+    margin-top: 10px;
 }
 
-.nav-bar-container .nav-bar-lang-list .nav-bar-lang-list-item {
-    list-style: none;
-    display: inline-block;
-    margin: 5px 2px -10px 2px;
+.nav-bar-container .nav-bar-lang a {
+    margin: 0 5px 0 5px;
+    color: #ffffff;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.nav-bar-container .nav-bar-lang a {
+    text-decoration: none;
 }
 
 /*NAV-BAR-MENU-LIST*/
@@ -74,13 +87,21 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 
 /*TITLE SECTION*/
 .title-section {
-    height: 1500px;
+
     background-color: #c96567;
     padding-top: 83px;
 }
 
-.title-section .title-menu {
+.title-section .brand-name {
+    margin: 20px 0 0 30px;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 20px;
+}
 
+.title-section .title-menu {
+    margin: 100px 0 0 0;
+    transform: perspective(200px) rotateX(3deg) rotateY(3deg);
 }
 
 .title-section .title-menu .title-menu-list {
@@ -90,6 +111,7 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 .title-section .title-menu .title-menu-list .title-menu-list-item {
     list-style: none;
     text-align: center;
+    margin: 0 140px 0 140px;
 }
 
 .title-section .title-menu .title-menu-list #home,
@@ -97,45 +119,125 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 .title-section .title-menu .title-menu-list #projects,
 .title-section .title-menu .title-menu-list #career,
 .title-section .title-menu .title-menu-list #contact {
-    padding: 20px 5px 20px 5px;
+    padding: 20px 0 20px 0;
 }
 
 .title-section .title-menu .title-menu-list #home {
     background-color: #263441;
+    transform: translateX(140px) skewY(-2deg);
+    box-shadow: -3px 5px 10px #333333;
+    transition: all .4s;
+}
+
+.title-section .title-menu .title-menu-list #home:hover {
+    background-color: #c96567;
+    border: 1px solid #ffffff;
 }
 
 .title-section .title-menu .title-menu-list #about {
     background-color: #314455;
+    transform: translateX(10px) skewY(-2deg);
+    box-shadow: -3px 5px 10px #333333;
+    transition: all .4s;
+}
+
+.title-section .title-menu .title-menu-list #about:hover {
+    background-color: #c96567;
+    border: 1px solid #ffffff;
 }
 
 .title-section .title-menu .title-menu-list #projects {
     background-color: #000000;
+    transform: translateX(-130px) skewY(-2deg);
+    box-shadow: -3px 5px 10px #333333;
+    transition: all .4s;
+}
+
+.title-section .title-menu .title-menu-list #projects:hover {
+    background-color: #c96567;
+    border: 1px solid #ffffff;
 }
 
 .title-section .title-menu .title-menu-list #career {
-    background-color: #263441;
+    background-color: #97aabd;
+    transform: translate(100px, -10px) skewY(-2deg);
+    box-shadow: -3px 5px 10px #333333;
+    transition: all .4s;
+}
+
+.title-section .title-menu .title-menu-list #career:hover {
+    background-color: #c96567;
+    border: 1px solid #ffffff;
 }
 
 .title-section .title-menu .title-menu-list #contact {
     background-color: #314455;
+    transform: translate(145px, -20px) skewY(-2deg);
+    box-shadow: -3px 5px 10px #333333;
+    transition: all .4s;
+}
+
+.title-section .title-menu .title-menu-list #contact:hover {
+    background-color: #c96567;
+    border: 1px solid #ffffff;
 }
 
 .title-section .title-menu .title-menu-list .title-menu-list-item a {
     color: #ffffff;
     font-size: 21px;
-
+    font-weight: bolder;
 }
 
+.title-section .title-menu .title-menu-list .title-menu-list-item a:hover {
+    text-decoration: none;
+}
 
-    /*FOOTER*/
+.title-section .title-paragraph-container {
+    margin: 40px 0 0 0;
+}
+
+.title-section .title-paragraph-container .title-paragraph {
+    padding: 0 0 0 50px;
+    font-size: 34px;
+    line-height: 33px;
+    display: block;
+    position: relative;
+    top: 350px;
+    width: 870px !important;
+    color: #ffffff;
+    font-weight: bolder;
+    z-index: 999;
+}
+
+.title-section .scroll-down-arrow a {
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    margin: 0 542px 0 542px;
+}
+
+.title-section .scroll-down-arrow a i {
+    transition: all .2s ease-in-out;
+}
+
+.title-section .scroll-down-arrow a i:hover {
+    transform: translateY(10px);
+}
+
+/*FOOTER*/
 .footer-container {
     padding: 20px 0 0 0;
+    background-color: #263441;
+}
+
+.footer-container .footer-navigation-header {
+    color: #ffffff;
 }
 
 .footer-container .footer-menu-list {
     display: block;
     padding: 0 50px 0 0;
-    float: right;
 }
 
 .footer-container .footer-menu-list .footer-menu-list-item {
@@ -143,7 +245,7 @@ a, h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .footer-container .footer-menu-list .footer-menu-list-item a {
-    color: #999999;
+    color: #ffffff;
     font-size: 16px;
 }
 
@@ -155,36 +257,35 @@ a, h1, h2, h3, h4, h5, h6, p, span {
     display: block;
 }
 
+.footer-container .footer-address-list strong {
+    color: #ffffff;
+}
+
 .footer-container .footer-address-list p {
     list-style: none;
-    color: #999999;
+    color: #ffffff;
     margin-bottom: 0 !important;
 }
 
 .footer-container .designed-by p {
     text-align: center;
-    color: #888888;
-}
-
-.footer-container .designed-by p {
-    text-align: center;
-    color: #888888;
+    color: #ffffff;
+    line-height: 0;
 }
 
 .footer-container .designed-by p a {
-    color: #000000;
-    transition: all .4s;
+    color: #ffffff;
+    transition: all .4s ease-in-out;
 }
 
 .footer-container .designed-by p a:hover {
     text-decoration: none;
-    color: #666666;
+    color: #c96567;
 }
 
 .footer-container #map {
     height: 200px;
     width: 350px;
-    border: 1px solid #999999;
-    box-shadow: 0 2px 5px #888888;
+    border: 1px solid #ffffff;
 
 }
