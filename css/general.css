@@ -229,7 +229,10 @@ a, h1, h2, h3, h4, h5, h6, p, span, strong {
 .footer-container {
     padding: 20px 0 0 0;
     background-color: #263441;
+    text-align: center;
 }
+
+
 
 .footer-container .footer-navigation-header {
     color: #ffffff;
@@ -237,7 +240,8 @@ a, h1, h2, h3, h4, h5, h6, p, span, strong {
 
 .footer-container .footer-menu-list {
     display: block;
-    padding: 0 50px 0 0;
+    text-align: center;
+
 }
 
 .footer-container .footer-menu-list .footer-menu-list-item {
@@ -257,7 +261,7 @@ a, h1, h2, h3, h4, h5, h6, p, span, strong {
     display: block;
 }
 
-.footer-container .footer-address-list strong {
+.footer-container h5 {
     color: #ffffff;
 }
 
@@ -265,6 +269,55 @@ a, h1, h2, h3, h4, h5, h6, p, span, strong {
     list-style: none;
     color: #ffffff;
     margin-bottom: 0 !important;
+}
+
+.footer-container .footer-contact .footer-contact-list {
+    list-style: none;
+}
+
+.footer-container .footer-contact .footer-contact-list .footer-contact-list-item a {
+    color: #ffffff;
+}
+
+.footer-container .footer-contact .footer-contact-list .footer-contact-list-item a:hover {
+    text-decoration: none;
+}
+
+.footer-container .footer-social-media-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+
+.footer-container .footer-social-media-list-item a {
+    color: #ffffff;
+    font-size: 25px;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid #ffffff;
+}
+
+.footer-container .footer-social-media-list #facebook a {
+    padding: 5px 10px 5px 10px;
+}
+
+.footer-container .footer-social-media-list-item a i {
+    text-align: center;
+    display: block;
+}
+
+.footer-container .footer-social-media-list-item a:hover {
+    text-decoration: none;
+}
+
+
+
+.footer-container .designed-by {
+    padding: 10px 0 0 0;
+
 }
 
 .footer-container .designed-by p {
@@ -284,8 +337,8 @@ a, h1, h2, h3, h4, h5, h6, p, span, strong {
 }
 
 .footer-container #map {
-    height: 200px;
-    width: 350px;
+    height: 150px;
+    width: 100%;
     border: 1px solid #ffffff;
 
 }
